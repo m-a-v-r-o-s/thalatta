@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* EB Garamond covers Greek (Cormorant Garamond has no Greek subset),
+     so Greek headings fall through to it instead of a system serif. */
+  --font-display: 'Cormorant Garamond', 'EB Garamond', serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  /* Handwritten Caveat for Latin; Greek (no script font exists) falls through
+     to EB Garamond, shown italic on Greek pages for a flowing feel. */
+  --font-script: 'Caveat', 'EB Garamond', cursive;
+
+  /* Colours are space-separated RGB triples so Tailwind's /opacity works.
+     Default = LIGHT (day). [data-theme="dark"] overrides = night.
+     Any element over a photo carries data-theme="dark" so scrims stay dark
+     and text over images stays light in both modes. */
+  --bg-rgb: 245 240 231;         /* warm off-white */
+  --surface-1-rgb: 238 231 217;  /* bands / footer */
+  --surface-2-rgb: 255 255 255;  /* cards / fields */
+  --surface-3-rgb: 233 225 211;
+  --surface-4-rgb: 223 213 194;
+  --text-rgb: 20 33 32;          /* deep sea-ink */
+  --text-muted-rgb: 90 98 95;
+  --gold-rgb: 166 126 58;        /* darker gold for contrast on light */
+  --gold-light-rgb: 138 105 46;
+  --gold-dark-rgb: 120 90 39;
+  --foam-rgb: 58 108 99;
+  --line-rgb: 20 33 32;          /* near-black hairlines on light */
+}
+
+[data-theme='dark'] {
+  --bg-rgb: 11 20 22;            /* #0B1416 deep sea-ink */
+  --surface-1-rgb: 11 20 22;
+  --surface-2-rgb: 15 29 32;     /* #0F1D20 */
+  --surface-3-rgb: 18 42 46;     /* #122A2E */
+  --surface-4-rgb: 22 54 59;     /* #16363B */
+  --text-rgb: 239 231 214;       /* #EFE7D6 sand */
+  --text-muted-rgb: 201 194 179; /* #C9C2B3 */
+  --gold-rgb: 201 161 90;        /* #C9A15A */
+  --gold-light-rgb: 216 183 120; /* #D8B778 */
+  --gold-dark-rgb: 169 133 63;   /* #A9853F */
+  --foam-rgb: 143 185 176;       /* #8FB9B0 */
+  --line-rgb: 255 255 255;       /* white hairlines on dark */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink text-sand font-body antialiased;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  /* Photo overlays carry data-theme="dark"; re-anchor color here so headings
+     without an explicit colour (which only inherit) follow the local theme. */
+  [data-theme] {
+    color: rgb(var(--text-rgb) / 1);
+  }
+  ::selection {
+    @apply bg-gold text-ink;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display font-light;
+  }
+  /* Visible keyboard focus */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible {
+    outline: 2px solid theme('colors.gold.DEFAULT');
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-content px-6 md:px-10;
+  }
+
+  /* Letter-spaced uppercase label used across sections */
+  .eyebrow {
+    @apply font-body text-[11px] uppercase tracking-eyebrow text-gold;
+  }
+
+  /* Signature: a thin gold horizon rule */
+  .horizon {
+    @apply relative inline-block pb-4;
+  }
+  .horizon::after {
+    content: '';
+    @apply absolute bottom-0 left-0 h-px w-16 bg-gold;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 border border-gold
+           bg-gold px-8 py-3.5 font-body text-[12px] uppercase tracking-[0.22em]
+           text-ink transition-colors duration-300 hover:bg-transparent hover:text-gold;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 border border-sand/30
+           px-8 py-3.5 font-body text-[12px] uppercase tracking-[0.22em] text-sand
+           transition-colors duration-300 hover:border-gold hover:text-gold;
+  }
+
+  .field-label {
+    @apply mb-2 block font-body text-[11px] uppercase tracking-[0.2em] text-sand-muted;
+  }
+  .field {
+    @apply w-full border border-sand/20 bg-ink-800 px-4 py-3 font-body text-sand
+           placeholder:text-sand-muted/50 focus:border-gold focus:outline-none;
+  }
+}
+
+@layer utilities {
+  /* Scroll-reveal: quiet fade + rise, no cursor tricks */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+    will-change: opacity, transform;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1 !important; transform: none !important; transition: none; }
+  .animate-slow-zoom { animation: none !important; }
+}
+
+/* Greek has no handwriting font, so render the Greek hero title in EB Garamond
+   italic for a flowing, script-adjacent feel (Latin keeps upright Caveat). */
+:lang(el) .hero-title {
+  font-style: italic;
+}
+
+/* --- Header foreground (unlayered so it beats Tailwind's utility layer) --- */
+.nav-link {
+  color: rgb(var(--text-rgb) / 1);
+  transition: color 0.25s ease;
+}
+.nav-link:hover,
+.nav-link.is-active {
+  color: rgb(var(--gold-rgb) / 1);
+}
+/* In dark context the whole header foreground goes gold, like the Book button. */
+[data-theme='dark'] .nav-link,
+[data-theme='dark'] .header-ctl {
+  color: rgb(var(--gold-rgb) / 1);
+}
+[data-theme='dark'] .nav-link:hover,
+[data-theme='dark'] .header-ctl:hover {
+  color: rgb(var(--gold-light-rgb) / 1);
+}
+
+/* --- Homepage hero crossfades its photo with the *page* theme (html),
+   not the hero's own data-theme="dark" scrim wrapper. --- */
+.theme-img {
+  transition: opacity 0.6s ease;
+}
+.theme-img--dark {
+  opacity: 0;
+}
+html[data-theme='dark'] .theme-img--light {
+  opacity: 0;
+}
+html[data-theme='dark'] .theme-img--dark {
+  opacity: 1;
+}
+
+/* Mobile menu overlay: quick 300ms open/close fade, but change theme colour at
+   the same 500ms pace/easing as the header so they stay in sync on a toggle. */
+.mobile-menu {
+  transition:
+    opacity 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hero title shape (keyed off the *page* theme, not the hero's dark scrim):
+   a gentle sine wave by day, a slight diagonal by night. Letters stay upright. */
+.diag-char {
+  transform: translateY(var(--wy, 0));
+}
+html[data-theme='dark'] .diag-script {
+  transform: rotate(calc(-1 * var(--diag-angle, 5deg)));
+}
+html[data-theme='dark'] .diag-char {
+  transform: rotate(var(--diag-angle, 5deg));
+}

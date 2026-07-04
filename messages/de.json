@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "tagline": "Ein Strandresort in Elounda, Kreta",
+    "description": "Ein Fünf-Sterne-Refugium an der Küste von Elounda, mit Suiten mit Meerblick, drei Restaurants, zwei Bars und einem Ägäis-Spa."
+  },
+  "nav": {
+    "home": "Start",
+    "rooms": "Zimmer",
+    "dining": "Kulinarik",
+    "spa": "Spa",
+    "experiences": "Erlebnisse",
+    "testimonials": "Bewertungen",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "booking": "Buchen",
+    "bookNow": "Jetzt buchen"
+  },
+  "common": {
+    "from": "ab",
+    "perNight": "pro Nacht",
+    "learnMore": "Mehr erfahren",
+    "viewDetails": "Details ansehen",
+    "reserve": "Reservieren",
+    "explore": "Entdecken",
+    "discover": "Entdecken",
+    "viewAll": "Alle ansehen"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Elounda · Kreta",
+      "title": "Wo die Ägäis auf Stille trifft",
+      "subtitle": "Ein Fünf-Sterne-Hotel an der Küste von Elounda, gemacht für lange, langsame Tage am Wasser.",
+      "cta": "Aufenthalt reservieren"
+    },
+    "welcome": {
+      "eyebrow": "Willkommen",
+      "title": "Eine Adresse am Wasser",
+      "body1": "Thalatta Bay liegt an einem privaten Abschnitt der Küste von Elounda, die Terrassen fallen zum Meer hin ab. Die Zimmer sind dem Wasser zugewandt, und die meisten Wege durch die Gärten enden ebenfalls dort.",
+      "body2": "Unsere Art von Luxus ist die leisere: barfüßige Morgen, lange Mittagessen in der salzigen Luft und Abende, die unter einem Sternenhimmel enden.",
+      "stats": {
+        "suites": { "value": "68", "label": "Zimmer & Suiten" },
+        "dining": { "value": "5", "label": "Restaurants & Bars" },
+        "shoreline": { "value": "400m", "label": "Privatstrand" }
+      }
+    },
+    "rooms": {
+      "eyebrow": "Aufenthalt",
+      "title": "Zimmer & Suiten",
+      "perNight": "pro Nacht"
+    },
+    "dining": {
+      "eyebrow": "Genuss",
+      "title": "Fünf Arten, am Meer zu speisen",
+      "body": "Von einem Fine-Dining-Tisch über der Bucht bis zur Taverne am Wasser hält jede unserer Küchen ihre eigenen Zeiten und ihre eigene Stimmung."
+    },
+    "spa": {
+      "eyebrow": "Erholung",
+      "title": "Das Thalatta Spa",
+      "body": "Meerwasser-Rituale, kretisches Olivenöl und ruhige Hände, nah genug am Meer, um es zu hören."
+    },
+    "cta": {
+      "eyebrow": "Ihr Tisch am Meer",
+      "title": "Kommen Sie an die kretische Küste"
+    }
+  },
+  "roomsList": {
+    "deluxe": {
+      "name": "Deluxe mit Meerblick",
+      "kind": "Zimmer",
+      "view": "Ägäisches Meer",
+      "desc": "Ein ruhiges 42-m²-Zimmer in Sand- und Steintönen, mit privatem Balkon über dem offenen Meer. Handgefertigte Leinen, eine begehbare Regendusche und ein Fenster, das Sie zu den Wellen offen lassen können."
+    },
+    "junior": {
+      "name": "Junior-Suite",
+      "kind": "Suite",
+      "view": "Meer & Garten",
+      "desc": "Eine größere Suite mit separatem Wohnbereich und breiter Terrasse zum Meer. Platz genug für langsame Morgen und lange Nachmittage."
+    },
+    "bungalow": {
+      "name": "Strandbungalow",
+      "kind": "Bungalow · Privatpool",
+      "view": "Direkt am Strand",
+      "desc": "Wenige Schritte vom Ufer, ein Bungalow aus Stein und Holz mit eigenem Tauchbecken und schattiger Terrasse, den Sand nur ein paar Schritte entfernt."
+    },
+    "villa": {
+      "name": "Signature-Villa",
+      "kind": "Villa · Privatpool",
+      "view": "Panorama-Meerblick",
+      "desc": "Unsere größte Residenz: 180 m² Wohnfläche, ein beheizter Infinity-Pool und weiter Blick über den Golf. Butler-Service, und ein privater Weg hinunter zum Strand."
+    }
+  },
+  "venues": {
+    "ostria": {
+      "name": "Ostria",
+      "kind": "Signature-Restaurant",
+      "tagline": "Moderne ägäische Küche über offener Flamme.",
+      "summary": "Unser Fine-Dining-Raum über der Bucht, kretische Produkte mit moderner Hand gekocht.",
+      "description": "Benannt nach dem warmen Südwind, ist Ostria ein Abend aus Degustationsmenüs und offener Flamme. Die Küche arbeitet fast ausschließlich mit Erzeugnissen der Insel: fangfrischem Fisch, Bergkräutern, Olivenöl eines einzigen Guts, zurückhaltend angerichtet und serviert, während die Sonne ins Meer sinkt.",
+      "hours": "Abendessen · 19:00–23:00",
+      "cuisineType": "Moderne Ägäis",
+      "dress": "Elegant",
+      "menu": {
+        "0": { "name": "Wolfsbarsch, Fenchel, Bottarga", "price": "€38" },
+        "1": { "name": "Geschmortes Lamm, Wildkräuter, Zitrone", "price": "€42" },
+        "2": { "name": "Seeigel-Tagliatelle", "price": "€34" },
+        "3": { "name": "Soufflé aus Mastix & Thymianhonig", "price": "€18" }
+      }
+    },
+    "kyma": {
+      "name": "To Kyma",
+      "kind": "Fischtaverne",
+      "tagline": "Der Fang des Tages, eine Armlänge vom Meer entfernt.",
+      "summary": "Eine barfüßige Fischtaverne im Sand, wo das Mittagessen ganz leicht in den Abend übergeht.",
+      "description": "To Kyma, 'die Welle', ist unser entspanntester Tisch. Sie wählen einen ganzen Fisch vom Eis, und er kommt über Holzkohle gegrillt zurück, nur mit Zitrone und Öl. Füße im Sand, eine Karaffe Assyrtiko auf dem Tisch, kein Grund zur Eile.",
+      "hours": "Mittag & Abend · 13:00–23:00",
+      "cuisineType": "Meeresfrüchte",
+      "dress": "Leger",
+      "menu": {
+        "0": { "name": "Gegrillter Oktopus, Kapern, Olivenöl", "price": "€22" },
+        "1": { "name": "Ganze Dorade, Ladolemono", "price": "€30" },
+        "2": { "name": "Garnelen-Saganaki, Tomate, Feta", "price": "€24" },
+        "3": { "name": "Sorbet aus Meersalz & Zitrus", "price": "€9" }
+      }
+    },
+    "umi": {
+      "name": "Umi",
+      "kind": "Nikkei & Sushi",
+      "tagline": "Lokaler Fisch, japanische und peruanische Hände.",
+      "summary": "Eine Sushi-Theke und Nikkei-Küche, die den tagesfrischen lokalen Fisch anders behandeln.",
+      "description": "Umi bringt ein anderes Meer nach Kreta. Hinter der Theke schneiden die Köche denselben tagesfrischen Fisch wie im To Kyma, dann nehmen sie ihn in eine Nikkei-Richtung mit, mit Zitrus und Chili. Klein, gedämpft beleuchtet und am besten als Folge kleiner Teller.",
+      "hours": "Abendessen · 19:00–00:00",
+      "cuisineType": "Nikkei · Sushi",
+      "dress": "Smart Casual",
+      "menu": {
+        "0": { "name": "Gelbschwanz-Tiradito, Aji Amarillo", "price": "€26" },
+        "1": { "name": "Toro & kretische Olive Nigiri", "price": "€32" },
+        "2": { "name": "Black Cod, Miso, Kombu", "price": "€36" },
+        "3": { "name": "Yuzu & Sesam Parfait", "price": "€14" }
+      }
+    },
+    "meltemi": {
+      "name": "Meltemi",
+      "kind": "Dachbar",
+      "tagline": "Sundowner auf dem Dach, gekühlt vom Nordwind.",
+      "summary": "Unsere Dachbar für Abendcocktails und kleine Teller über der Bucht.",
+      "description": "Benannt nach dem Sommerwind, der über die Ägäis fegt, beginnt im Meltemi der Abend. Eine kurze Cocktailkarte auf Basis griechischer Spirituosen und inseleigener Botanicals, ein offener Blick zum Horizont und ein DJ, der den Tag in die Nacht überführt.",
+      "hours": "Täglich · 17:00–01:00",
+      "cuisineType": "Cocktails & kleine Teller",
+      "dress": "Smart Casual",
+      "menu": {
+        "0": { "name": "Signature Meltemi Spritz", "price": "€16" },
+        "1": { "name": "Fassgereifter Ägäis-Negroni", "price": "€18" },
+        "2": { "name": "Mastix Sour", "price": "€15" },
+        "3": { "name": "Marinierte Oliven & Mandeln", "price": "€10" }
+      }
+    },
+    "aegli": {
+      "name": "Aégli",
+      "kind": "Pool- & Strandbar",
+      "tagline": "Barfüßige Morgen und lange Nachmittage am Wasser.",
+      "summary": "Eine Ganztages-Pool- und Strandbar für kühle Drinks, kleine Gerichte und lange Bäder.",
+      "description": "Aégli, 'Glanz', ist das Tagesherz des Resorts. Liegen am Infinity-Pool, eine kurze Karte mit Salaten und Sandwiches und ein Mixer, der von morgens bis zur Dämmerung läuft. Bestellen Sie, ohne das Wasser zu verlassen.",
+      "hours": "Täglich · 10:00–19:00",
+      "cuisineType": "Kleine Gerichte & Cocktails",
+      "dress": "Beach Chic",
+      "menu": {
+        "0": { "name": "Frozen Sanddorn-Daiquiri", "price": "€15" },
+        "1": { "name": "Wassermelone & Feta Salat", "price": "€14" },
+        "2": { "name": "Club-Sandwich, Insel-Pommes", "price": "€18" },
+        "3": { "name": "Affogato, Mastix-Gelato", "price": "€9" }
+      }
+    }
+  },
+  "rooms": {
+    "eyebrow": "Aufenthalt",
+    "title": "Zimmer & Suiten",
+    "intro": "Achtundsechzig Zimmer, Suiten und Villen, alle dem Meer zugewandt. Natürliche Materialien, handgefertigte Textilien und viel Raum.",
+    "spec": {
+      "size": "Größe",
+      "guests": "Für",
+      "view": "Aussicht"
+    }
+  },
+  "dining": {
+    "eyebrow": "Genuss",
+    "title": "Kulinarik",
+    "intro": "Drei Restaurants und zwei Bars, vom Fine Dining an offener Flamme bis zur Taverne im Sand. Wo Sie auch sitzen, das Meer ist am Tisch.",
+    "restaurantsLabel": "Restaurants",
+    "barsLabel": "Bars",
+    "signatureLabel": "Signature-Gerichte",
+    "detail": {
+      "hours": "Öffnungszeiten",
+      "cuisine": "Küche",
+      "dress": "Kleiderordnung"
+    }
+  },
+  "spa": {
+    "eyebrow": "Erholung",
+    "title": "Spa & Wellness",
+    "introEyebrow": "Das Thalatta Spa",
+    "introTitle": "Aus dem Meer geschöpft",
+    "intro1": "Unser Spa borgt sich fast alles vom Wasser vor der Tür. Thalassotherapie-Becken, Meersalz-Peelings und kretisches Olivenöl stehen hinter den meisten Behandlungen.",
+    "intro2": "Sechs Behandlungsräume, ein Hammam und ein Garten im Freien blicken über die Bucht. Ein guter Ort, um sehr wenig zu tun.",
+    "menuEyebrow": "Behandlungen",
+    "menuTitle": "Signature-Rituale",
+    "bookTreatment": "Anfragen & buchen",
+    "treatments": {
+      "aegean": {
+        "name": "Ägäis-Ritual",
+        "price": "€180",
+        "desc": "Ganzkörper-Peeling mit Meersalz und eine Wickelung mit Meeresmineralien, abgeschlossen mit einer Druckpunktmassage.",
+        "duration": "90 Minuten"
+      },
+      "olive": {
+        "name": "Kretische Olivenöl-Massage",
+        "price": "€140",
+        "desc": "Eine langsame, wärmende Massage mit warmem Olivenöl eines Guts und Bergkräutern.",
+        "duration": "60 Minuten"
+      },
+      "thalasso": {
+        "name": "Thalasso-Reise",
+        "price": "€220",
+        "desc": "Hydrotherapie-Zirkel, Hammam und eine regenerierende Gesichtsbehandlung mit marinen Wirkstoffen.",
+        "duration": "120 Minuten"
+      },
+      "couples": {
+        "name": "Sonnenuntergang zu zweit",
+        "price": "€320",
+        "desc": "Ein Ritual für Paare Seite an Seite, mit Sekt auf der privaten Terrasse als Abschluss.",
+        "duration": "90 Minuten"
+      }
+    }
+  },
+  "experiences": {
+    "eyebrow": "Erlebnisse",
+    "title": "Tage jenseits der Küste",
+    "intro": "Das Meer ist nur der Anfang. Unser Concierge organisiert alles, vom Segeltörn im ersten Licht bis zur Wanderung in den Bergen hinter Elounda, damit jeder Tag hier so ruhig oder so voll wird, wie Sie möchten.",
+    "concierge": "Jedes Erlebnis wird über den Concierge organisiert.",
+    "items": {
+      "sailing": {
+        "kind": "Auf dem Wasser",
+        "name": "Privates Segeln & Inselhüpfen",
+        "desc": "Ein Tag mit Skipper auf Yacht oder Katamaran, mit Ankerstopps in ruhigen Buchten zum Schwimmen und Essen an Bord.",
+        "meta": "Halber oder ganzer Tag"
+      },
+      "hiking": {
+        "kind": "Zu Fuß",
+        "name": "Schluchten- & Bergwanderungen",
+        "desc": "Wandern Sie die Samaria-Schlucht oder die ruhigeren Pfade über der Küste, mit einem Guide, der Schatten und Quellen kennt.",
+        "meta": "Geführt · ab 4 Stunden"
+      },
+      "overland": {
+        "kind": "Mit dem 4x4",
+        "name": "Offroad-Bergsafari",
+        "desc": "Fahren Sie die Serpentinen ins kretische Hochland hinauf, mit Halten in Bergdörfern und an Aussichtspunkten, die kaum jemand erreicht.",
+        "meta": "Ganzer Tag"
+      },
+      "kayak": {
+        "kind": "Auf dem Wasser",
+        "name": "Seekajak",
+        "desc": "Paddeln Sie über das ruhige Morgenwasser entlang der Küste, vorbei an Felsbögen und Buchten, die nur vom Meer aus zugänglich sind.",
+        "meta": "Morgens · 2–3 Stunden"
+      },
+      "coves": {
+        "kind": "Am Meer",
+        "name": "Versteckte Buchten & Schwimmen",
+        "desc": "Ein Boot hinaus zu den türkisen Buchten der Küste, mit Schnorchelausrüstung und Zeit zum Schwimmen, wo das Wasser am klarsten ist.",
+        "meta": "Halber Tag"
+      },
+      "village": {
+        "kind": "Kultur",
+        "name": "Dorf- & Genusstouren",
+        "desc": "Schlendern Sie durch alte Steingassen mit einem lokalen Gastgeber und probieren Sie Käse, Oliven und Raki direkt von den Menschen, die sie machen.",
+        "meta": "Nachmittags · 3 Stunden"
+      }
+    },
+    "cta": {
+      "eyebrow": "Planen Sie Ihre Tage",
+      "title": "Sagen Sie uns, wie Sie den Tag verbringen möchten",
+      "body": "Unser Team stellt einen Plan rund um Ihre Daten zusammen, ob ein großes Abenteuer oder eine Woche voller kleiner.",
+      "button": "Mit dem Concierge sprechen"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Gästestimmen",
+    "title": "Was unsere Gäste sagen",
+    "intro": "Wir lassen lieber die Menschen sprechen, die bei uns waren. Hier sind einige der Notizen, die Gäste nach ihrer Zeit an der Küste von Elounda hinterlassen haben.",
+    "stats": {
+      "rating": { "value": "4,9", "label": "Durchschnittsbewertung" },
+      "stays": { "value": "1.200+", "label": "Verifizierte Aufenthalte" },
+      "return": { "value": "72%", "label": "Gäste, die wiederkommen" }
+    },
+    "verified": "Jede Bewertung stammt aus einem verifizierten Aufenthalt.",
+    "items": {
+      "martin": {
+        "name": "Chloé & Julien Martin",
+        "location": "Lyon, Frankreich",
+        "stay": "Signature-Villa · Mai 2026",
+        "quote": "Unsere Flitterwochen, und sie haben die Messlatte unmöglich hoch gelegt. Frühstück auf der Terrasse, ein privater Weg zum Strand und ein Sonnenuntergang vom Meltemi, von dem wir immer noch erzählen. Wirklich die ruhigste Woche unseres Lebens."
+      },
+      "weber": {
+        "name": "Hannah & Tom Weber",
+        "location": "München, Deutschland",
+        "stay": "Strandbungalow · Juni 2026",
+        "quote": "Wir buchten drei Nächte und blieben acht. Der Bungalow ging direkt ans Wasser und die Kinder trugen die ganze Woche kaum Schuhe. Ab dem zweiten Morgen wusste das Personal, wie wir unseren Kaffee trinken."
+      },
+      "rossi": {
+        "name": "Marco Rossi",
+        "location": "Mailand, Italien",
+        "stay": "Deluxe mit Meerblick · Juli 2026",
+        "quote": "Ich schwamm jeden Tag vor dem Frühstück. Der gegrillte Fisch im To Kyma mit einer Karaffe Assyrtiko wurde zu meinem Abendritual. Ich habe schon drei Freunde hergeschickt."
+      },
+      "okafor": {
+        "name": "Amara Okafor",
+        "location": "London, Vereinigtes Königreich",
+        "stay": "Junior-Suite · September 2025",
+        "quote": "Ich kam für ein paar ruhige Tage und bekam genau das. Lange Mittagessen, eine Spa-Behandlung, die ein Jahr Schreibtischarbeit auflöste, und eine Terrasse, auf der ich zwei Bücher zu Ende las. Nichts war je zu viel."
+      },
+      "adler": {
+        "name": "Daniel Adler",
+        "location": "Tel Aviv, Israel",
+        "stay": "Deluxe mit Meerblick · August 2025",
+        "quote": "Das Zimmer und die Aussicht waren wunderbar und das Abendessen im Ostria ein Höhepunkt. Der Pool füllte sich in der Hochsaison gegen Mittag, aber ein kurzes Wort mit dem Team und sie fanden uns Liegen im Schatten. Ich würde wiederkommen."
+      },
+      "sullivan": {
+        "name": "James Sullivan",
+        "location": "Dublin, Irland",
+        "stay": "Strandbungalow · Oktober 2025",
+        "quote": "Alles hat einfach funktioniert. Der Transfer wartete, das Zimmer war früh bereit, und der Concierge plante einen Segeltag, der der beste Teil der Reise wurde. Herzliche Menschen, kein Aufheben."
+      }
+    },
+    "cta": {
+      "eyebrow": "Sie sind dran",
+      "title": "Schreiben Sie Ihre eigene",
+      "body": "Wählen Sie Ihre Daten und überlassen Sie den Rest unserem Team.",
+      "button": "Aufenthalt reservieren"
+    }
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Ein Blick auf Thalatta",
+    "intro": "Meer, Stein und Licht. Einige Aufnahmen aus dem Resort und seiner Küste."
+  },
+  "booking": {
+    "eyebrow": "Reservierungen",
+    "title": "Aufenthalt buchen",
+    "intro": "Wählen Sie Daten, Zimmer und Extras. Die Zahlung läuft im sicheren Testmodus, es wird also nichts wirklich belastet.",
+    "back": "Zurück",
+    "continue": "Weiter",
+    "perNight": "pro Nacht",
+    "steps": {
+      "dates": "Daten",
+      "room": "Zimmer",
+      "extras": "Extras",
+      "details": "Angaben",
+      "payment": "Zahlung"
+    },
+    "fields": {
+      "checkIn": "Anreise",
+      "checkOut": "Abreise",
+      "adults": "Erwachsene",
+      "children": "Kinder",
+      "datesError": "Bitte wählen Sie ein Abreisedatum nach Ihrer Anreise.",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "requests": "Sonderwünsche"
+    },
+    "extras": {
+      "breakfast": {
+        "title": "Frühstück am Meer",
+        "price": "€35 / Gast / Nacht",
+        "desc": "Ein volles kretisches Frühstück jeden Morgen auf der Meerterrasse."
+      },
+      "spa": {
+        "title": "Spa-Ankunftsritual",
+        "price": "€120",
+        "desc": "Eine 60-minütige Willkommensbehandlung für einen entspannten Start."
+      },
+      "transfer": {
+        "title": "Privater Flughafentransfer",
+        "price": "€90",
+        "desc": "Ein privater Wagen von und zum Flughafen Heraklion."
+      }
+    },
+    "summary": {
+      "title": "Ihre Reservierung",
+      "room": "Zimmer",
+      "dates": "Daten",
+      "nights": "Nächte",
+      "guests": "Gäste",
+      "total": "Gesamt",
+      "none": "Nicht gewählt",
+      "note": "Eine Demo-Reservierung. Es wird keine echte Zahlung vorgenommen und keine Buchung erstellt.",
+      "upTo": "Für bis zu {n}",
+      "checkIn": "Anreise",
+      "checkOut": "Abreise"
+    },
+    "confirm": {
+      "eyebrow": "Bestätigt",
+      "title": "Ihr Aufenthalt ist reserviert",
+      "body": "Vielen Dank. Dies ist eine Demonstrationsbestätigung für die Beispielseite.",
+      "reference": "Referenz",
+      "emailed": "Eine Bestätigung würde an {email} gesendet."
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Wir freuen uns, von Ihnen zu hören",
+    "reachUs": "Erreichen Sie uns",
+    "intro": "Für Reservierungen, private Veranstaltungen oder jede Frage zu Ihrem Aufenthalt ist unser Team für Sie da.",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "form": {
+      "eyebrow": "Nachricht",
+      "title": "Schreiben Sie uns",
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sentTitle": "Vielen Dank",
+      "sentBody": "Dies ist ein Beispielformular, Ihre Nachricht wurde also nicht wirklich gesendet."
+    }
+  },
+  "footer": {
+    "tagline": "Ein Fünf-Sterne-Hotel am Meer an der Küste von Elounda auf Kreta, wenige Schritte vom Wasser.",
+    "explore": "Entdecken",
+    "contact": "Kontakt"
+  }
+}

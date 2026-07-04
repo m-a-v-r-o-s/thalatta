@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "tagline": "A Seafront Resort in Elounda, Crete",
+    "description": "A five-star retreat on the Elounda shoreline, with sea-view suites, three restaurants, two bars and an Aegean spa."
+  },
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "dining": "Dining",
+    "spa": "Spa",
+    "experiences": "Experiences",
+    "testimonials": "Reviews",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "booking": "Book",
+    "bookNow": "Book Now"
+  },
+  "common": {
+    "from": "from",
+    "perNight": "per night",
+    "learnMore": "Learn more",
+    "viewDetails": "View details",
+    "reserve": "Reserve",
+    "explore": "Explore",
+    "discover": "Discover",
+    "viewAll": "View all"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Elounda · Crete",
+      "title": "Where the Aegean Meets Stillness",
+      "subtitle": "A five-star hotel on the Elounda shore, built for long, slow days by the water.",
+      "cta": "Reserve your stay"
+    },
+    "welcome": {
+      "eyebrow": "Welcome",
+      "title": "An address on the water's edge",
+      "body1": "Thalatta Bay sits on a private stretch of the Elounda coast, its terraces dropping toward the sea. The rooms face the water, and most paths through the gardens end there too.",
+      "body2": "Ours is a quieter kind of luxury: barefoot mornings, long lunches in the salt air, and evenings that finish under a sky full of stars.",
+      "stats": {
+        "suites": { "value": "68", "label": "Rooms & Suites" },
+        "dining": { "value": "5", "label": "Restaurants & Bars" },
+        "shoreline": { "value": "400m", "label": "Private Shoreline" }
+      }
+    },
+    "rooms": {
+      "eyebrow": "Stay",
+      "title": "Rooms & Suites",
+      "perNight": "per night"
+    },
+    "dining": {
+      "eyebrow": "Taste",
+      "title": "Five ways to dine by the sea",
+      "body": "From a fine-dining room above the bay to a taverna at the water's edge, each of our kitchens keeps its own hours and its own mood."
+    },
+    "spa": {
+      "eyebrow": "Restore",
+      "title": "The Thalatta Spa",
+      "body": "Sea-water treatments, Cretan olive oil and unhurried hands, close enough to the sea to hear it."
+    },
+    "cta": {
+      "eyebrow": "Your table by the sea",
+      "title": "Come stay on the Cretan coast"
+    }
+  },
+  "roomsList": {
+    "deluxe": {
+      "name": "Deluxe Sea View",
+      "kind": "Room",
+      "view": "Aegean Sea",
+      "desc": "A calm 42 m² room in sand and stone tones, with a private balcony over the open sea. Handmade linen, a walk-in rain shower, and a window you can leave open to the waves."
+    },
+    "junior": {
+      "name": "Junior Suite",
+      "kind": "Suite",
+      "view": "Sea & Garden",
+      "desc": "A larger suite with a separate lounge and a wide terrace facing the sea. Room enough for slow mornings and long afternoons."
+    },
+    "bungalow": {
+      "name": "Seafront Bungalow",
+      "kind": "Bungalow · Private Pool",
+      "view": "Beachfront",
+      "desc": "Steps from the shore, a stone-and-timber bungalow with its own plunge pool and a shaded deck, the sand a few paces away."
+    },
+    "villa": {
+      "name": "Signature Villa",
+      "kind": "Villa · Private Pool",
+      "view": "Panoramic Sea",
+      "desc": "Our largest residence: 180 m² of living space, a heated infinity pool and long views across the gulf. Butler service, and a private path down to the beach."
+    }
+  },
+  "venues": {
+    "ostria": {
+      "name": "Ostria",
+      "kind": "Signature Restaurant",
+      "tagline": "Modern Aegean cooking over open flame.",
+      "summary": "Our fine-dining room above the bay, cooking Cretan produce with a modern hand.",
+      "description": "Named for the warm south wind, Ostria is an evening of tasting menus and open flame. The kitchen works almost entirely with island produce: line-caught fish, mountain herbs, single-estate olive oil, plated with restraint and served as the sun drops into the sea.",
+      "hours": "Dinner · 19:00–23:00",
+      "cuisineType": "Modern Aegean",
+      "dress": "Smart elegant",
+      "menu": {
+        "0": { "name": "Line-caught sea bass, fennel, bottarga", "price": "€38" },
+        "1": { "name": "Slow-cooked lamb, wild greens, lemon", "price": "€42" },
+        "2": { "name": "Sea urchin tagliatelle", "price": "€34" },
+        "3": { "name": "Mastiha & thyme-honey soufflé", "price": "€18" }
+      }
+    },
+    "kyma": {
+      "name": "To Kyma",
+      "kind": "Seafood Taverna",
+      "tagline": "The day's catch, an arm's length from the sea.",
+      "summary": "A barefoot seafood taverna built on the sand, where lunch drifts easily into dinner.",
+      "description": "To Kyma, 'the wave', is the most relaxed of our tables. You pick a whole fish from the ice and it comes back grilled over charcoal, dressed with just lemon and oil. Toes in the sand, a carafe of assyrtiko on the table, no reason to hurry.",
+      "hours": "Lunch & Dinner · 13:00–23:00",
+      "cuisineType": "Seafood",
+      "dress": "Relaxed",
+      "menu": {
+        "0": { "name": "Grilled octopus, capers, olive oil", "price": "€22" },
+        "1": { "name": "Whole sea bream, ladolemono", "price": "€30" },
+        "2": { "name": "Prawn saganaki, tomato, feta", "price": "€24" },
+        "3": { "name": "Sea salt & citrus sorbet", "price": "€9" }
+      }
+    },
+    "umi": {
+      "name": "Umi",
+      "kind": "Nikkei & Sushi",
+      "tagline": "Local fish, Japanese and Peruvian hands.",
+      "summary": "A sushi counter and Nikkei kitchen that treat the day's local fish a different way.",
+      "description": "Umi brings a different sea to Crete. Behind the counter, the chefs cut the same day-boat fish you'll find at To Kyma, then take it in a Nikkei direction with citrus and chilli. It's small, low-lit, and best eaten as a run of little plates.",
+      "hours": "Dinner · 19:00–00:00",
+      "cuisineType": "Nikkei · Sushi",
+      "dress": "Smart casual",
+      "menu": {
+        "0": { "name": "Yellowtail tiradito, aji amarillo", "price": "€26" },
+        "1": { "name": "Toro & Cretan olive nigiri", "price": "€32" },
+        "2": { "name": "Black cod, miso, kombu", "price": "€36" },
+        "3": { "name": "Yuzu & sesame parfait", "price": "€14" }
+      }
+    },
+    "meltemi": {
+      "name": "Meltemi",
+      "kind": "Rooftop Bar",
+      "tagline": "Sundowners on the roof, cooled by the north wind.",
+      "summary": "Our rooftop bar for evening cocktails and small plates above the bay.",
+      "description": "Named for the summer wind that sweeps the Aegean, Meltemi is where the evening starts. A short cocktail list built on Greek spirits and island botanicals, an open view to the horizon, and a DJ turning the day over into night.",
+      "hours": "Daily · 17:00–01:00",
+      "cuisineType": "Cocktails & Small Plates",
+      "dress": "Smart casual",
+      "menu": {
+        "0": { "name": "Signature Meltemi spritz", "price": "€16" },
+        "1": { "name": "Barrel-aged Aegean negroni", "price": "€18" },
+        "2": { "name": "Mastiha sour", "price": "€15" },
+        "3": { "name": "Marinated olives & almonds", "price": "€10" }
+      }
+    },
+    "aegli": {
+      "name": "Aégli",
+      "kind": "Pool & Beach Bar",
+      "tagline": "Barefoot mornings and long afternoons by the water.",
+      "summary": "An all-day pool and beach bar for cold drinks, light bites and slow swims.",
+      "description": "Aégli, 'radiance', is the daytime heart of the resort. Sun-loungers by the infinity pool, a short menu of salads and sandwiches, and a blender going from morning to dusk. You can order without leaving the water.",
+      "hours": "Daily · 10:00–19:00",
+      "cuisineType": "Light Bites & Cocktails",
+      "dress": "Beach chic",
+      "menu": {
+        "0": { "name": "Frozen sea-buckthorn daiquiri", "price": "€15" },
+        "1": { "name": "Watermelon & feta salad", "price": "€14" },
+        "2": { "name": "Club sandwich, island fries", "price": "€18" },
+        "3": { "name": "Affogato, mastiha gelato", "price": "€9" }
+      }
+    }
+  },
+  "rooms": {
+    "eyebrow": "Stay",
+    "title": "Rooms & Suites",
+    "intro": "Sixty-eight rooms, suites and villas, all of them facing the sea. Natural materials, handmade textiles, and room to breathe.",
+    "spec": {
+      "size": "Size",
+      "guests": "Sleeps",
+      "view": "View"
+    }
+  },
+  "dining": {
+    "eyebrow": "Taste",
+    "title": "Dining",
+    "intro": "Three restaurants and two bars, from open-flame fine dining to a taverna on the sand. Wherever you sit, the sea is on the table.",
+    "restaurantsLabel": "Restaurants",
+    "barsLabel": "Bars",
+    "signatureLabel": "Signature dishes",
+    "detail": {
+      "hours": "Hours",
+      "cuisine": "Cuisine",
+      "dress": "Dress code"
+    }
+  },
+  "spa": {
+    "eyebrow": "Restore",
+    "title": "Spa & Wellness",
+    "introEyebrow": "The Thalatta Spa",
+    "introTitle": "Drawn from the sea",
+    "intro1": "Our spa borrows almost everything from the water outside it. Thalassotherapy pools, sea-salt scrubs and Cretan olive oil sit behind most of the treatments.",
+    "intro2": "Six treatment rooms, a hammam and an outdoor garden look out over the bay. A good place to do very little.",
+    "menuEyebrow": "Treatments",
+    "menuTitle": "Signature rituals",
+    "bookTreatment": "Enquire & book",
+    "treatments": {
+      "aegean": {
+        "name": "Aegean Sea Ritual",
+        "price": "€180",
+        "desc": "A full-body sea-salt exfoliation and marine-mineral wrap, finished with a pressure-point massage.",
+        "duration": "90 minutes"
+      },
+      "olive": {
+        "name": "Cretan Olive Massage",
+        "price": "€140",
+        "desc": "A slow, warming massage with single-estate olive oil and mountain herbs.",
+        "duration": "60 minutes"
+      },
+      "thalasso": {
+        "name": "Thalasso Journey",
+        "price": "€220",
+        "desc": "Hydrotherapy circuit, hammam and a restorative facial drawing on marine actives.",
+        "duration": "120 minutes"
+      },
+      "couples": {
+        "name": "Sunset for Two",
+        "price": "€320",
+        "desc": "A side-by-side ritual for couples, closing with sparkling wine on the private terrace.",
+        "duration": "90 minutes"
+      }
+    }
+  },
+  "experiences": {
+    "eyebrow": "Experiences",
+    "title": "Days Beyond the Shore",
+    "intro": "The sea is only the start. Our concierge can arrange everything from a sail at first light to a walk in the mountains behind Elounda, so each day here is as quiet or as full as you want it.",
+    "concierge": "Every experience is arranged through the concierge.",
+    "items": {
+      "sailing": {
+        "kind": "On the water",
+        "name": "Private sailing & island-hopping",
+        "desc": "A skippered day on a yacht or catamaran, dropping anchor at quiet bays to swim and eat on board.",
+        "meta": "Half or full day"
+      },
+      "hiking": {
+        "kind": "On foot",
+        "name": "Gorge & mountain hikes",
+        "desc": "Walk the Samaria Gorge or the quieter trails above the coast with a guide who knows the shade and the springs.",
+        "meta": "Guided · from 4 hours"
+      },
+      "overland": {
+        "kind": "By 4x4",
+        "name": "Off-road mountain safari",
+        "desc": "Climb the hairpins into the Cretan highlands by jeep, stopping at hill villages and viewpoints few people reach.",
+        "meta": "Full day"
+      },
+      "kayak": {
+        "kind": "On the water",
+        "name": "Sea kayaking",
+        "desc": "Paddle the calm morning water along the shore, past rock arches and inlets you can only reach from the sea.",
+        "meta": "Morning · 2–3 hours"
+      },
+      "coves": {
+        "kind": "By the sea",
+        "name": "Hidden coves & swimming",
+        "desc": "A boat out to the turquoise coves along the coast, with snorkelling gear and time to swim where the water is clearest.",
+        "meta": "Half day"
+      },
+      "village": {
+        "kind": "Culture",
+        "name": "Village & food walks",
+        "desc": "Wander old stone lanes with a local host, tasting cheese, olives and raki from the people who make them.",
+        "meta": "Afternoon · 3 hours"
+      }
+    },
+    "cta": {
+      "eyebrow": "Plan your days",
+      "title": "Tell us how you'd like to spend the day",
+      "body": "Our team will build a plan around your dates, whether that's one big adventure or a week of small ones.",
+      "button": "Talk to the concierge"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Guest stories",
+    "title": "What our guests say",
+    "intro": "We would rather let the people who have stayed with us do the talking. Here are a few of the notes guests left after their time on the Elounda shore.",
+    "stats": {
+      "rating": { "value": "4.9", "label": "Average rating" },
+      "stays": { "value": "1,200+", "label": "Verified stays" },
+      "return": { "value": "72%", "label": "Guests who return" }
+    },
+    "verified": "Every review is from a verified stay.",
+    "items": {
+      "martin": {
+        "name": "Chloé & Julien Martin",
+        "location": "Lyon, France",
+        "stay": "Signature Villa · May 2026",
+        "quote": "Our honeymoon, and it set the bar impossibly high. Breakfast on the terrace, a private path down to the beach, and a sunset from Meltemi we still talk about. Genuinely the calmest week of our lives."
+      },
+      "weber": {
+        "name": "Hannah & Tom Weber",
+        "location": "Munich, Germany",
+        "stay": "Seafront Bungalow · June 2026",
+        "quote": "We booked three nights and stayed eight. The bungalow opened straight onto the water and the kids barely wore shoes all week. By the second morning the staff knew how we take our coffee."
+      },
+      "rossi": {
+        "name": "Marco Rossi",
+        "location": "Milan, Italy",
+        "stay": "Deluxe Sea View · July 2026",
+        "quote": "I swam before breakfast every single day. To Kyma's grilled fish with a carafe of assyrtiko became my evening ritual. I have already sent three friends here."
+      },
+      "okafor": {
+        "name": "Amara Okafor",
+        "location": "London, United Kingdom",
+        "stay": "Junior Suite · September 2025",
+        "quote": "I came for a quiet few days and got exactly that. Long lunches, a spa treatment that undid a year of desk work, and a terrace where I finished two books. Nothing was ever too much trouble."
+      },
+      "adler": {
+        "name": "Daniel Adler",
+        "location": "Tel Aviv, Israel",
+        "stay": "Deluxe Sea View · August 2025",
+        "quote": "The room and the view were lovely and dinner at Ostria was a highlight. The pool filled up around midday in high season, but a quiet word with the team and they found us loungers in the shade. I would come back."
+      },
+      "sullivan": {
+        "name": "James Sullivan",
+        "location": "Dublin, Ireland",
+        "stay": "Seafront Bungalow · October 2025",
+        "quote": "Everything just worked. The transfer was waiting, the room was ready early, and the concierge planned a sailing day that turned out to be the best part of the trip. Warm people, no fuss."
+      }
+    },
+    "cta": {
+      "eyebrow": "Your turn",
+      "title": "Come write your own",
+      "body": "Choose your dates and let our team take care of the rest.",
+      "button": "Reserve your stay"
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "A Glimpse of Thalatta",
+    "intro": "Sea, stone and light. A few frames from around the resort and its shoreline."
+  },
+  "booking": {
+    "eyebrow": "Reservations",
+    "title": "Book Your Stay",
+    "intro": "Choose your dates, room and extras. Payment runs in secure test mode, so no real charge is made.",
+    "back": "Back",
+    "continue": "Continue",
+    "perNight": "per night",
+    "steps": {
+      "dates": "Dates",
+      "room": "Room",
+      "extras": "Extras",
+      "details": "Details",
+      "payment": "Payment"
+    },
+    "fields": {
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "adults": "Adults",
+      "children": "Children",
+      "datesError": "Please choose a check-out date after your check-in date.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "phone": "Phone",
+      "requests": "Special requests"
+    },
+    "extras": {
+      "breakfast": {
+        "title": "Breakfast by the sea",
+        "price": "€35 / guest / night",
+        "desc": "A full Cretan breakfast served on the seafront terrace each morning."
+      },
+      "spa": {
+        "title": "Spa arrival ritual",
+        "price": "€120",
+        "desc": "A 60-minute welcome treatment to begin your stay unwound."
+      },
+      "transfer": {
+        "title": "Private airport transfer",
+        "price": "€90",
+        "desc": "A private car to and from Heraklion airport."
+      }
+    },
+    "summary": {
+      "title": "Your reservation",
+      "room": "Room",
+      "dates": "Dates",
+      "nights": "Nights",
+      "guests": "Guests",
+      "total": "Total",
+      "none": "Not selected",
+      "note": "A demo reservation. No real payment is taken and no booking is created.",
+      "upTo": "Sleeps up to {n}",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out"
+    },
+    "confirm": {
+      "eyebrow": "Confirmed",
+      "title": "Your stay is reserved",
+      "body": "Thank you. This is a demonstration confirmation for the sample site.",
+      "reference": "Reference",
+      "emailed": "A confirmation would be sent to {email}."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in Touch",
+    "subtitle": "We would love to hear from you",
+    "reachUs": "Reach us",
+    "intro": "For reservations, private events or any question about your stay, our team is here to help.",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "form": {
+      "eyebrow": "Message",
+      "title": "Send us a note",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send message",
+      "sentTitle": "Thank you",
+      "sentBody": "This is a sample form, so your message was not actually sent."
+    }
+  },
+  "footer": {
+    "tagline": "A five-star seafront hotel on the Elounda coast of Crete, a few steps from the water.",
+    "explore": "Explore",
+    "contact": "Contact"
+  }
+}
