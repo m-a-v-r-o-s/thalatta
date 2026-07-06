@@ -33,7 +33,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <DiagonalScript text={t('hero.title')} angle={5} />
           </h1>
           <Image
-            src="/logo-mark.png"
+            src="/logo-mark.webp"
             alt="Thalatta Bay"
             width={410}
             height={281}

@@ -61,7 +61,7 @@ export default function Header() {
             className="flex items-center"
           >
             <Image
-              src="/logo-mark.png"
+              src="/logo-mark.webp"
               alt="Thalatta Bay"
               width={117}
               height={80}

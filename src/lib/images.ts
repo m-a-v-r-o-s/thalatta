@@ -21,7 +21,8 @@ export function lummi(src: string, w = 1600): string {
   if (src.startsWith('http')) {
     // Pexels resizes on the fly via query params; other urls pass through.
     if (src.includes('images.pexels.com')) {
-      return `${src}${src.includes('?') ? '&' : '?'}auto=compress&cs=tinysrgb&w=${w}`;
+      // auto=compress,format lets the CDN serve AVIF/WebP by content negotiation.
+      return `${src}${src.includes('?') ? '&' : '?'}auto=compress,format&cs=tinysrgb&w=${w}`;
     }
     return src;
   }

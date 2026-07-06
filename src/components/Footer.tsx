@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="container-x grid gap-12 py-16 md:grid-cols-4 md:py-20">
         <div className="md:col-span-2">
           <Image
-            src="/logo-mark.png"
+            src="/logo-mark.webp"
             alt=""
             width={67}
             height={46}
